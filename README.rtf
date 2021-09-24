@@ -1,0 +1,47 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf130
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww34300\viewh21920\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 CONTENTS OF THIS FOLDER\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97	\
+\
+* CARR_GFLM_tutorial.R :           A step-by-step implementation of the covariate-adjusted region-referenced\
+					generalized functional linear model (CARR-GFLM) and associated procedures described\
+					in "Covariate-Adjusted Region-Referenced Generalized Functional Linear Model for EEG Data"\
+					by Scheffler et al. (2019). The procedure assumes that functional predictor is observed on  \
+					a common grid in the regional, functional, and covariate dimensions.\
+\
+* CARR_GFLM_data.R : 	      	Function for simulating data for the CARR_GFLM.R function as described\
+             			           in the simulation section found in Section 4 of "Covariate-Adjusted \
+                                                      Region-Referenced Generalized Functional Linear Model for EEG Data" \
+                                                      by Scheffler et al. (2019).  \
+\
+* CARR_GFLM.R : 			Function for fitting CARR-GFLM. Returns the estimated regression function along with Bayesian \
+                                                      point-wise confidence intervals and predictions.\
+\
+* mGFLM.R:                                  Function for fitting a multivariate generalized functional linear model (m-GFLM).\
+\
+* mGFLMi.R:                                 Function for fitting a m-GFLM with covariate interaction (m-GFLMi).\
+\
+		 \
+INTRODUCTION\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97	\
+\
+The contents of this folder allow for implementation of the covariate-adjusted region-referenced generalized functional linear model (CARR-GFLM) \
+described in "Covariate-Adjusted Region-Referenced Generalized Functional Linear Model for EEG Data" by Scheffler et al. (2019). Users can simulate \
+a sample data frame (CARR_GFLM_data.R) and apply the proposed CARR_GFLM (CARR_GFLM.R). Detailed instructions on how to perform the \
+aforementioned procedures and visualize results are included in CARR_GFLM_Tutorial.R. In the tutorial, predictive performance of the proposed model \
+is compared to a multivariate generalized functional linear model (m-GFLM) and m-GFLM with covariate interaction (m-GFLMi).\
+\
+REQUIREMENTS\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97	\
+\
+The included R programs require R 3.5.1 (R Core Team, 2018) and the packages listed in CARR_GFLM_Tutorial.R.\
+\
+\
+INSTALLATION\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97	\
+\
+Load the R program files into the global environment and install required packages using commands in CARR_GFLM_Tutorial.R.}
